@@ -22,8 +22,8 @@
   background-color: var(--bg-color, #FFF);
   color: var(--accent-color, #000);
   background-image:
-    repeating-linear-gradient(90deg, var(--gradient-color,#d3d3d3) 0px 2px, transparent 2px 4px),
-    repeating-linear-gradient(0deg, var(--gradient-color,#d3d3d3) 0px 2px, transparent 2px 4px),
+    repeating-linear-gradient(90deg, var(--gradient-color, #d3d3d3) 0px 2px, transparent 2px 4px),
+    repeating-linear-gradient(0deg, var(--gradient-color, #d3d3d3) 0px 2px, transparent 2px 4px),
     linear-gradient(to bottom, var(--gradient-top, #e7e7e7), var(--gradient-bot, #1a1a1a));
   background-attachment: fixed;
   background-size: cover;
@@ -43,7 +43,6 @@
   display: grid;
   justify-content: center;
   justify-items: center;
-  background-color: inherit;
   gap: 50px;
   background-color: transparent;
   position: relative;
@@ -174,6 +173,7 @@
 .content__img {
   position: relative;
   outline: 2px solid var(--accent-color, #000);
+  height: 696px;
 }
 
 .content__img-paragraph {
@@ -244,7 +244,7 @@
 }
 
 .sprint4 {
-  filter: contrast(90%) ;
+  filter: opacity(50%);
 }
 
 .content__title {
@@ -286,6 +286,9 @@
   font-size: 14px;
   line-height: 0.9;
   font-weight: inherit;
+  position: relative;
+  color: var(--font-color, #FFF);
+  mix-blend-mode: difference;
 }
 
 .card__like-button {
@@ -343,12 +346,6 @@
     height: 28px;
     width: 28px;
   }
-}
-
-.button__text {
-  position: relative;
-  color: var(--font-color, #FFF);
-  mix-blend-mode: difference;
 }
 
 .floppy {
