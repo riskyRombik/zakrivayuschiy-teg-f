@@ -19,7 +19,7 @@
 }
 
 :root.theme-light {
-  --normal: 400;
+  --normal: 400; 
   --bold: 700;
   --accent-color: #000;
   --bg-color: #FFF;
