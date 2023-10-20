@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../slozhno-sosredotochitsya"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "zakrivayuschiy-teg-f"
+	}
+}
