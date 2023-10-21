@@ -16,10 +16,11 @@
   --contour-color: #00CC14;
   --hover-color: #00CC14;
   --gradient-color: #000;
+  --bg-color-hover: #00CC14;
 }
 
 :root.theme-light {
-  --normal: 400; 
+  --normal: 400;
   --bold: 700;
   --accent-color: #000;
   --bg-color: #FFF;
@@ -29,6 +30,7 @@
   --contour-color: #000;
   --hover-color: #000;
   --gradient-color: #d3d3d3;
+  --bg-color-hover: #fff
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,5 +45,6 @@
     --contour-color: #00CC14;
     --hover-color: #00CC14;
     --gradient-color: #000;
+    --bg-color-hover: #00CC14;
   }
 }
