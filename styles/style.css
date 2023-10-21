@@ -323,7 +323,7 @@
   opacity: 0.75;
 }
 
-.card__dialog-form{
+.card__dialog-form {
   width: 100%;
   position: relative;
   grid-column: 1/3;
