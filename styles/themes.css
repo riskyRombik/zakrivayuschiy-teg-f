@@ -30,7 +30,7 @@
   --contour-color: #000;
   --hover-color: #000;
   --gradient-color: #d3d3d3;
-  --bg-color-hover: #fff
+  --bg-color-hover: #fff;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -221,7 +221,7 @@
 .button-section {
   display: flex;
   align-self: flex-end;
-  padding: 25px;;
+  padding: 25px;
   gap: 8px;
   align-items: center;
 }
@@ -322,6 +322,7 @@
   background-color: var(--backdrop-color, #000);
   opacity: 0.75;
 }
+
 .card__dialog-form{
   width: 100%;
   position: relative;
